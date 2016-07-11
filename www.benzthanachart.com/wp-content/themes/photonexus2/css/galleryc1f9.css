@@ -1,0 +1,84 @@
+ul#pikame{width:730px;}
+.pika-wrap {width: 730px; margin: 0 auto;}
+
+.pika-counter { display:none; }
+
+.pika-stage {position: relative; height: auto; width: 730px; background: none; border: none; padding: 0;}
+	/*position image holders */
+	.pika-stage .animation, .pika-image .main-image {position: absolute; top: 0; left: 0;}
+	.pika-stage .animation {display: none;z-index:2;}
+	.pika-stage img {border:0; margin: 0 auto; text-align:center; display:block;}
+	
+	.pika-stage .main-image {position: absolute; top: 0; left: 0;}
+	.pika-stage .pika-aniwrap{position: absolute; top: 0; left: 0;}
+	.pika-stage .pika-ani {position:relative;display: none;z-index:2;margin:0 auto;}
+	.pika-stage img {border:0;}
+
+.pika-stage .caption {
+	margin-top:20px;
+	position: absolute;
+	width: 100%;
+}
+	.pika-stage .caption p {padding: 0; margin: 0; line-height: 14px;}
+	
+.pika-imgnav a {position: absolute; text-indent: -5000px; display: block;z-index:3;}
+	.pika-imgnav a.previous {background: url(../images/gallery/prev.html) no-repeat left 45%; height: 100%; width: 50px; top: 10px; left: 10px;display:none;cursor:pointer;}
+	.pika-imgnav a.next {background: url(../images/gallery/next.html) no-repeat right 45%; height: 100%; width: 50px; top: 10px; right: 10px;display:none;cursor:pointer;}
+	.pika-imgnav a.play {background: url(../images/gallery/play.png) no-repeat 0% 50%; height: 100px; width: 44px;top:0;left:0;cursor:pointer;}
+	.pika-imgnav a.pause {background: url(../images/gallery/pause.png) no-repeat 0% 50%; height: 100px; width: 44px;top:0;left:0;cursor:pointer;}
+
+
+.pika-textnav {overflow: hidden; padding-top:10px; width:100px; margin:0 auto; }
+.pika-textnav a {font-size: 11px; text-decoration: none; color: #8B8B8B; padding: 4px;}
+		.pika-textnav a:hover {color: #111; cursor:pointer;}
+	.pika-textnav a.previous {float: left; width: auto; display: block;}
+	.pika-textnav a.next {float: right; width: auto; display: block;}
+	.pika-textnav a.next,.pika-textnav a.previous {
+		display:none;
+	}
+	
+.pika-thumbs {margin: 90px 0 0 0; padding: 0; overflow: hidden; list-style:none;list-style-position:outside;}
+	.pika-thumbs li {
+	text-align:center; 
+	float:left;
+	list-style-type: none; 
+	width: 30px; 
+	padding: 5px;
+	border-width:1px; 
+	border-style:solid; 
+	border-color: #e5e5e5; 
+	cursor: pointer;}
+		.pika-thumbs li:last {margin: 0;}
+		.pika-thumbs li .clip {position:relative;width: 30px; height: 30px; text-align: center; vertical-align: center; overflow: hidden;}
+
+.clip span{background-color:black;position:absolute;top:5px;left:5px;display:block;}
+		
+		/* Title */	
+	.photo-title {
+		font-size: 12px;
+		font-weight:bold;
+		color:#464646;
+		display:block;
+		text-align:center;
+		letter-spacing:1px;
+		padding: 0 10px 5px 10px;
+	}
+	/* Caption Text */
+	.photo-caption {
+		font-size: 11px;
+		letter-spacing:1px;
+		line-height:16px;
+		color:#8B8B8B;
+		display:block;
+		text-align:center;
+		padding: 0 40px;
+	}
+	
+	/* Caption Text */
+	.photo-description {
+		font-size: 11px;
+		color:#464646;
+		padding-bottom:10px;
+		display:block;
+		text-align:center;
+	}

@@ -1,0 +1,93 @@
+
+.navigationbox .wp-pagenavi, #contents .navigationbox .wp-pagenavi {
+	font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+	margin-bottom:5px;
+	margin-top:20px;	
+	color: #2E2E2E; font-size:10px;
+
+}
+
+	.navigationbox .wp-pagenavi a, #contents .navigationbox .wp-pagenavi a, .navigationbox .wp-pagenavi a:link, #contents .navigationbox .wp-pagenavi a:link {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		padding: 3px 7px 3px 7px; 
+		margin: 4px;
+		text-decoration: none;
+		margin-bottom:10px;
+		color: #111;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		background:#eee;border:none;
+
+	}
+	.navigationbox .wp-pagenavi a:visited, #contents .navigationbox .wp-pagenavi a:visited {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		padding: 3px 7px 3px 7px; 
+		margin: 4px;
+		text-decoration: none;
+		margin-bottom:10px;
+
+
+	}
+	.navigationbox .wp-pagenavi a:hover, #contents .navigationbox .wp-pagenavi a:hover {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		color: #fff;
+		background:#5D5D5D;
+		border:none;
+	}
+	.navigationbox .wp-pagenavi a:active, #contents .navigationbox .wp-pagenavi a:active {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		padding: 3px 7px 3px 7px; 
+		margin: 4px;
+		text-decoration: none;
+		margin-bottom:10px;
+		color: #fff;
+
+	}
+	.navigationbox .wp-pagenavi span.pages, #contents .navigationbox .wp-pagenavi span.pages {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		padding: 3px 7px 3px 7px; 
+		margin: 4px 4px 4px -6px;
+		color: #747474;
+		margin-bottom:10px;border:none;
+		text-transform:uppercase;
+		letter-spacing:1px;
+		font-size:10px;
+		
+
+	}
+	.navigationbox .wp-pagenavi span.current, #contents .navigationbox .wp-pagenavi span.current {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		padding: 3px 7px 3px 7px; 
+		margin: 4px;
+		font-weight: bold;
+		margin-bottom:10px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		color: #fff; background:#8B8B8B;border:none;
+	}
+		
+	.navigationbox .wp-pagenavi span.extend, #contents .navigationbox .wp-pagenavi span.extend {
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		padding: 3px 7px 3px 7px; 
+		margin: 4px;	
+		margin-bottom:10px;
+		color: #2E2E2E;
+		border:none;
+
+	}
+
+.navigationbox .navigation, #contents .navigationbox .navigation { 
+	font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+	font-size:14px;
+}
+
+	.navigationbox .navigation a, #contents .navigationbox .navigation a { 
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		color:#111;
+	}
+
+	.navigationbox .navigation a:hover, #contents .navigationbox .navigation a:hover { 
+		font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans','DejaVu Sans Condensed', Tahoma, Arial,sans-serif;
+		color:#000;
+		text-decoration:none;
+	}
